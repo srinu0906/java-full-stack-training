@@ -1,3 +1,4 @@
+package Inheritance;
  class Animal {
     void eat(){
         System.err.println("This animla eats food");

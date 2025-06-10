@@ -1,3 +1,4 @@
+package Inheritance;
 class B {
     void runs(){
 
