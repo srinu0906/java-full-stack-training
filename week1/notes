@@ -1,0 +1,94 @@
+09/06/2025
+Monday
+
+- Install STS 
+>>> JAVA Fundamentals
+
+10/06/2025
+>>> INHERITANCE
+
+- extends keyword is used in java for inheritence.
+- advantages:
+    1. code reusability
+    2. modularity
+
+- Types of inheritence
+
+    1. Single Inheritence
+        - A single child class inherits from a single parent class.
+                    +-----+
+                    |  A  |
+                    +-----+
+                       ^
+                       |
+                    +-----+
+                    |  B  |
+                    +-----+
+
+    2. Multi Level Inheritence
+        - A child class inherits properties from a parent class which inturn inheris from another parent class.
+                    +-----+
+                    |  A  |
+                    +-----+
+                       ^
+                       |
+                    +-----+
+                    |  B  |
+                    +-----+
+                       ^
+                       |
+                    +-----+
+                    |  C  |
+                    +-----+
+
+    3. Hierarchial Inheritence
+        - A single parent class is inherited by multiple child classes.
+                    +-----+
+                    |  A  |
+                    +-----+
+                    ^      ^
+                   /        \
+            +-----+           +-----+
+            |  B  |           |  C  |
+            +-----+           +-----+
+
+    4. Multiple Inheritence
+        - A child class inheritss from multiple parent classes.
+        - In Java it is not possible to implement Multiple Inheritence through classes. So we use interfaces
+            +-----+          +-----+
+            |  B  |          |  C  |
+            +-----+          +-----+
+                  ^         ^
+                   \       /
+                    +-----+
+                    |  A  |
+                    +-----+
+        - There will be ambiguity if we implement multiple inheritence using classes
+        ex: class B has run() method and class C also has run() method.
+        now class A inheris both class B and class C 
+        lets say class A also has run() method. now this run() has to override the run() in parent class. But there are multiple parent classes with same method signatures. so there will be ambiguity.
+
+        - but this multiple inheritence using classes is possible in C++.
+
+
+>>> Polymorphism
+- it is a core OOP concept.
+- "poly" means many,"morph" means forms.
+- two types 
+    1. Compile time (Method OverLoading)
+        - Compile time polymorphism or method overloading
+        - same name different signature
+    2. Run time (Method OverRiding)
+        - child classes overrides its parent class methods with same signature 
+
+- Advantages:
+    1. allows code resusability
+    2. makes code more flexible and maintainable
+    3. supports extensibility - new classes can be added.
+
+
+
+// work 
+parent RBI class 
+child classed SBI, ICICI
+ deposit, withdraw
