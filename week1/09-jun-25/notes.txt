@@ -1,0 +1,11 @@
+09/06/2025
+Monday
+
+- Install STS 
+>>> JAVA Fundamentals
+
+- datatypes
+ 1. primitive : int, char, float, double etc
+ 2. non primitive: array
+
+- OOP fundamentals
