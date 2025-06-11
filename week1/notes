@@ -5,7 +5,8 @@ Monday
 >>> JAVA Fundamentals
 
 10/06/2025
->>> INHERITANCE
+Tuesday
+>>> **INHERITANCE**
 
 - extends keyword is used in java for inheritence.
 - advantages:
@@ -71,7 +72,8 @@ Monday
         - but this multiple inheritence using classes is possible in C++.
 
 
->>> Polymorphism
+>>> **Polymorphism**
+
 - it is a core OOP concept.
 - "poly" means many,"morph" means forms.
 - two types 
@@ -92,3 +94,34 @@ Monday
 parent RBI class 
 child classed SBI, ICICI
  deposit, withdraw
+
+11/06/2025
+Wednesday
+
+ >>> __Abtraction__
+
+ - key concept of OOP
+ - Hiding internal implementation details and showing only the essentail features of an object.
+
+ - _Why we need it ?_
+    1. It reduces complexity
+    2. to increase code reusability
+    3. focus on what an object does instead of how it does it.
+
+- we can acheive abstraction in java using
+    1. Abstract Classes
+    2. Interfaces
+
+>> 1. Abstract Class
+- declared with  with abstract keyword.
+- can have both abstract methods(method without body) and concrete methods(method with body)
+- cannot be instantiated
+
+>> 2. Interface
+- all methods are implicitly abstract and public
+- it supports multiple inheritance
+- from java 8 onwards we have 
+            1. default
+            2. static method
+
+
