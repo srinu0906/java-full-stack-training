@@ -1,0 +1,11 @@
+create database java_training;
+create table Student(rollno int,sname varchar(20),age int);
+select * from student;
+insert into Student (rollno,sname,age) values (103,'pravin',31);
+update Student set age = 31 where rollno = 102;
+delete from student where rollno = 103;
+select * from student where age > 30;
+insert into Student (rollno,sname,age) values (105,'Salmaan',32);
+select * from student order by age desc; 
+select age,count(*) as total from student group by age;
+select * from student;
